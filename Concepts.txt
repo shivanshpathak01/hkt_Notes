@@ -1,0 +1,10 @@
+Concepts Taught by Harkirat singh from his cohort :
+
+Q. How websites/webApps deployed ?
+-> 1. Frontend :Frontend is deployed through CDNs (as there are many pop{point of presence} in the world so they get our data when we deploy them), But in the case of videos, they do not get deployed like every pop will get that video content, they just get the copy of the first CDN that requested the video, else it will take a lot of time to get the content delivered  
+-> 2. Backend : while in backend there is no concept of getting the copy of the data, bcz of the authentication, else everybody gets the same username and password and that will create problem 
+Q. When we upload videos on yt, why it takes so much time to upload ?
+-> It takes time in transcoding 
+# Backend needs to talk to backends Why?
+-> Ex1 : When we sign up and the backend needs to verify that the email with which you are signing up is your email, it sends a verification link to our email automatically , that happens in the backend 
+-> Ex2 : when we upload a video, it gets transcoded, there is queue where we have to maintain the things which i have to transcode next, 
