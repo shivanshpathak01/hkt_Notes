@@ -8,3 +8,8 @@ Q. When we upload videos on yt, why it takes so much time to upload ?
 # Backend needs to talk to backends Why?
 -> Ex1 : When we sign up and the backend needs to verify that the email with which you are signing up is your email, it sends a verification link to our email automatically , that happens in the backend 
 -> Ex2 : when we upload a video, it gets transcoded, there is queue where we have to maintain the things which i have to transcode next, 
+
+-> websockets is made by using HTTP and that was the wrong decision they took who made web sockets 
+-> Whenever you need to post the chat and it goes to server and then from there it go to client we use web sockets
+        (developer(Provider) --> server -->clients(Users) )
+-> 
