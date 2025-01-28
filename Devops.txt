@@ -1,0 +1,23 @@
+-> "localhost:3000" here localhost is the domain name, google.com, google is domain name
+-> IPV4 Address => 132.22.22.239  ==> each chunk before . only go from 0 to 255, it can only be of 8 bits
+-> IPV4 Address => 1320151.22.22.239  ==> not a IPV4 Address
+-> IPV4 are very limited, as 256^4 are the numbers of IPV4 Addresses, that's why IPV6 came into picture, and a normal small company can't own them, we have to borrow or take it form cloud service providers
+-> There is some concept of the intranet, in which there is range set, in which you have the access to the network through a specific IP, but when you are outside that range, the same IP is been given to some other domain
+-> Also in intranet, when multiple people are connected to the same router, they all would be able to view the localhost that someone is using on their network
+-> The above thing can be achieved by doing both, either by localhost, or by getting the IP of your router and going on that IP 
+-> To get the IP Address of router that is connected : go to cmd -> ipconfig/all
+-> after getting the ip, you can open the running server on any of the device that is connected to the same network
+-> Always do npx serve to get the localhost as well as IP of the running port 
+-> VM(Virtual Machine) : There is Hardware-> hypervisor -> VMs 
+-> according to need we can optimize this as they are virtual, so cost friendly
+-> Hypervisor (can be both either software or Hardware) divides the resources needed by VMs, according to their usecase
+-> Maximum thing can be deployed on this virtual Machine but whenever you need something that have some extra throughput like : bitcoin mining type thing where you need excessive throughput, there only bare metal comes into picture
+-> Bare Metal Servers : in a bare metal setup, OS runs directly on the physical hardware without a hypervisor in between, there is no virtualization layer
+-> they are fixed and can't be virtualized, also can't be accessed easily, they can't be found easily 
+-> ex: latitude.sh
+
+-> SSH Protocol( password based Auth): protocol that allows secure communication b/w two systems, typically for remote administration.
+-> when we validate a password we get shell access to that machine, this is called SSH
+-> cloud Provider : AWS,GCP,Azure       EasyOne:Civo,DigitalOcean,vultr
+-> Every Cloud provider will have their own name for their VMs like : AWS-> EC2(Elastic Compute 2nd generation), DigitalOcean-> droplets
+-> So by signining up, and paying them , we get a public IP
