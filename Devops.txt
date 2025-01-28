@@ -20,4 +20,5 @@
 -> when we validate a password we get shell access to that machine, this is called SSH
 -> cloud Provider : AWS,GCP,Azure       EasyOne:Civo,DigitalOcean,vultr
 -> Every Cloud provider will have their own name for their VMs like : AWS-> EC2(Elastic Compute 2nd generation), DigitalOcean-> droplets
--> So by signining up, and paying them , we get a public IP
+-> So by signining up, and paying them , we get a public IP.
+-> 1:12:00
