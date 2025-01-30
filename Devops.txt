@@ -21,4 +21,11 @@
 -> cloud Provider : AWS,GCP,Azure       EasyOne:Civo,DigitalOcean,vultr
 -> Every Cloud provider will have their own name for their VMs like : AWS-> EC2(Elastic Compute 2nd generation), DigitalOcean-> droplets
 -> So by signining up, and paying them , we get a public IP.
--> 1:12:00
+-> And the thing is that we get a ubuntu machine running my tasks that i will add, on the server of teh service provider, and i will be able to host my website or do anything on that server that they have provided to me 
+-> We can clone git repo there and do whatever thing we are doing on our local machine 
+-> we can give the url [239.25.1.21:3000], which includes ip and the port number where you are running your task
+
+Keypair Based-Authentication : 
+-> In an org, if we do the work using the passwords, then we can't find the person who can do the wrong things
+-> To tackle that we use ssh keys, through these too we can get what we want but in a different manner
+1:28:00
