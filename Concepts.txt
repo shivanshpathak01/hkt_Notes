@@ -18,3 +18,31 @@ Q. When we upload videos on yt, why it takes so much time to upload ?
 -> We use zod to maintain the schema in the javascript and typescript 
 -> Why we should not use enums ? what are the problems with enums=> basically when we connect frontend with backend it cause problem
 # basically ==> Client-Server Sync Issues: Enums can lead to issues where the client and server are not in sync, causing bugs that can be hard to diagnose. Ensuring that both sides are always updated together can be challenging.
+
+# Monorepo (Monolithic Repository)
+-> A monorepo (short for monolithic repository) is a single repository that contains multiple projects or services, instead of having separate repositories for each.
+# Key Characteristics of a Monorepo:
+Single Repository: All projects and packages are in one Git repository.
+Shared Codebase: Multiple teams or projects can reuse code easily.
+Centralized Versioning: Everything is versioned together, avoiding compatibility issues.
+Consistent CI/CD: Easier to maintain builds, testing, and deployments in one place.
+
+#Turborepo
+->Turborepo is a high-performance build system for JavaScript and TypeScript monorepos. It optimizes and speeds up the development workflow by providing:
+--> Remote Caching: Saves build outputs so that repeated builds can reuse previous results.
+--> Task Scheduling: Runs tasks efficiently in parallel or sequentially based on dependencies.
+--> Workspaces Management: Helps manage multiple packages (like microservices or libraries) within a single repository.
+--> Incremental Builds: Rebuilds only what has changed instead of the entire project.
+
+# Monolith
+A monolith (or monolithic architecture) refers to a single, unified application where all components—UI, business logic, and database—are tightly integrated and deployed as a single unit.
+
+--> Characteristics of a Monolithic Architecture:
+--> Single codebase for the entire application.
+--> Tightly coupled components (front-end, back-end, and database are in the same system).
+--> Shared database across all features.
+--> Simple deployment as everything is packaged together.
+
+# Monolith vs. Microservices
+--> Monolith: Everything is in one codebase and deployed as one unit.
+--> Microservices: The application is broken into independent services that communicate via APIs.
