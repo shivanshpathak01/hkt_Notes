@@ -16,3 +16,5 @@ Q. When we upload videos on yt, why it takes so much time to upload ?
 -> LIMIT: This is used to specify the maximum number of records you want to retrieve from the database. For instance, if you have a huge dataset but only need the first 10 records, you would use LIMIT 10.
 -> OFFSET: This is used in conjunction with LIMIT to specify the starting point within the dataset. For example, if you want to skip the first 20 records and then retrieve the next 10, you would use LIMIT 10 OFFSET 20.
 -> We use zod to maintain the schema in the javascript and typescript 
+-> Why we should not use enums ? what are the problems with enums=> basically when we connect frontend with backend it cause problem
+# basically ==> Client-Server Sync Issues: Enums can lead to issues where the client and server are not in sync, causing bugs that can be hard to diagnose. Ensuring that both sides are always updated together can be challenging.
