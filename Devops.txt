@@ -39,4 +39,10 @@ SSH into the server:
 -> It is giving us the code 0644 and saying that the permissions are too open, so what is this 0644(in decimal), This is actually RWE (Read, Write, Execute) access where if we convert the code to binary, it gives us (110,010,010) RWE access 
 -> command : chmod 700 kirat-class.pem (Here 700 is in decimal)
 -> Now The owner have all the access but others don't have any as there is 7(111) 0(000) 0(000), so now this file is protected, earlier it had the access to some other peoples as well 
--> 
+
+How to deploy apps to the AWS/EC2 :
+-> Firstly you have to create an instance of the EC2 and then configure it correctly, then you will get an ip of the virtual machine or instance that you have created.
+-> On that ip you just have to hit the with the port number you have provided in your server(usually express server).
+-> Also in ubuntu, git is already installed but you have to install node to run the server and then if you check with the ip you have got from the instance of the EC2(obviously with port number), you will see the that your application is running fine.
+
+Nginx (Nginx reverse proxy):  
