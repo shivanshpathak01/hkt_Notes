@@ -46,3 +46,4 @@ A monolith (or monolithic architecture) refers to a single, unified application 
 # Monolith vs. Microservices
 --> Monolith: Everything is in one codebase and deployed as one unit.
 --> Microservices: The application is broken into independent services that communicate via APIs.
+1:55:22
