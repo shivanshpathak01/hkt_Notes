@@ -45,4 +45,21 @@ How to deploy apps to the AWS/EC2 :
 -> On that ip you just have to hit the with the port number you have provided in your server(usually express server).
 -> Also in ubuntu, git is already installed but you have to install node to run the server and then if you check with the ip you have got from the instance of the EC2(obviously with port number), you will see the that your application is running fine.
 
-Nginx (Nginx reverse proxy):  
+Nginx (Nginx reverse proxy): 
+-> like if we use vpn, the request goes from user to some server and then to the blocked website from that server
+-> And in Reverse Proxy it sends the request to the server and then it will send to some website according to the request made
+-> It is not exactly the reverse of each other, just a mediatre like nginx involve
+Reverse Proxy : A reverse proxy is a server that sits between client devices and web servers, forwarding client requests to the appropriate backend server. Here are the main aspects of a reverse proxy:
+
+# Acts as an intermediary between clients and servers
+# Receives requests from clients and forwards them to backend servers
+# Returns the server's response back to the client.
+
+Popular Reverse Proxy Solutions:
+# Nginx
+# Apache HTTP Server (mod_proxy)
+# HAProxy
+# Traefik
+# Cloudflare
+
+3:54:06
